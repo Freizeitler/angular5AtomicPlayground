@@ -15,7 +15,8 @@ export class OrganismHeader implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.http.get('/assets/data/data.json').subscribe(data => {
+    this.http.get('/assets/data/data.json')
+    .subscribe(data => {
       this.title = data.header.title;
       this.subTitle = data.header.subTitle;
       this.passButtonText = data.header.buttonText;
