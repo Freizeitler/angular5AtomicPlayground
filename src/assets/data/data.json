@@ -1,0 +1,8 @@
+{
+  "header":
+  {
+    "title": "Playground",
+    "subTitle": "Testing Angular",
+    "buttonText": "Header Button"
+  }
+}

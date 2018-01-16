@@ -1,0 +1,8 @@
+@import '~scss/_settings';
+
+.atomButton {
+  background: $global-color-lightgrey;
+  border: 1px solid $global-color-grey;
+  border-radius: 0;
+  padding: 10px 20px;
+}
