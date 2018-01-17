@@ -12,10 +12,15 @@ export class OrganismHeader implements OnInit {
   subTitle: string;
   passButtonText: string;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    this.http.get('/assets/data/data.json')
+    // TS needs to know the called property of the object. Therefor we need to declare it in an interface
+    interface DataResponse {
+      header: any;
+    }
+
+    this.http.get<DataResponse>('/assets/data/data.json')
     .subscribe(data => {
       this.title = data.header.title;
       this.subTitle = data.header.subTitle;
