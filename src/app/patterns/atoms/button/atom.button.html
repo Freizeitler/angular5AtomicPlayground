@@ -1,1 +1,5 @@
-<button class="atomButton" type="button">{{ buttonText }}</button>
+<button *ngIf="button; else anchor" class="atomButton" type="button">{{ buttonText }}</button>
+
+<ng-template #anchor>
+  <a class="atomButton" href="#">{{ buttonText }}</a>
+</ng-template>

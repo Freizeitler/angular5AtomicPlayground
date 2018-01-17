@@ -15,7 +15,7 @@ export class OrganismHeader implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    // TS needs to know the called property of the object. Therefor we need to declare it in an interface
+    // NOTE: TS needs to know the called property of the object. Therefor we need to declare it in an interface
     interface DataResponse {
       header: any;
     }

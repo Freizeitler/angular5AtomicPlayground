@@ -5,4 +5,9 @@
   border: 1px solid $global-color-grey;
   border-radius: 0;
   padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+  font-size: 1em;
 }
