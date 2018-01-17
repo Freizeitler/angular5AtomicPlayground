@@ -17,4 +17,5 @@ import { Component, Input } from '@angular/core';
 export class AtomButton {
   @Input() buttonText: string;
   @Input() button: boolean;
+  @Input() href: string;
 }

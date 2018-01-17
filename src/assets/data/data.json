@@ -1,8 +1,13 @@
 {
-  "header":
+  "index":
   {
     "title": "Playground",
     "subTitle": "Testing Angular",
-    "buttonText": "Header Button"
+    "buttonText": "Page1"
+  },
+  "page1": {
+    "title": "Playground",
+    "subTitle": "Testing Angular - Page One",
+    "buttonText": "Home"
   }
 }

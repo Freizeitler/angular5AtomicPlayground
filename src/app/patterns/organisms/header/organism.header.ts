@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'organism-header',
@@ -7,24 +6,9 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./css/organism.header.scss']
 })
 
-export class OrganismHeader implements OnInit {
-  title: string;
-  subTitle: string;
-  passButtonText: string;
-
-  constructor(private http: HttpClient) { }
-
-  ngOnInit(): void {
-    // NOTE: TS needs to know the called property of the object. Therefor we need to declare it in an interface
-    interface DataResponse {
-      header: any;
-    }
-
-    this.http.get<DataResponse>('/assets/data/data.json')
-    .subscribe(data => {
-      this.title = data.header.title;
-      this.subTitle = data.header.subTitle;
-      this.passButtonText = data.header.buttonText;
-    });
-  }
+export class OrganismHeader {
+  @Input() title: string;
+  @Input() subTitle: string;
+  @Input() buttonText: string;
+  constructor() { }
 }
