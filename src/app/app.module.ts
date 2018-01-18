@@ -10,8 +10,6 @@ import { PagePage1 } from './patterns/pages/pagePage1/page.page1';
 import { OrganismHeader } from './patterns/organisms/header/organism.header';
 import { AtomButton } from './patterns/atoms/button/atom.button';
 
-//import { AppRoutes } from './routes/appRoutes';
-
 const appRoutes: Routes = [
   { path: 'index', component: PageIndex },
   { path: 'page1', component: PagePage1 },

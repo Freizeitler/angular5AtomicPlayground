@@ -1,8 +1,8 @@
 # angular5AtomicPlayground
-A playground for testing Angular with Atomic Web Design. The data is passed via the context (properties) and fetched from a static json mock that lives inside the assets/data folder. 
+An opinionated playground for testing Angular with Atomic Web Design. The data is passed via the context (properties) and fetched from a static json mock that lives inside the assets/data folder. 
 Routing is set up and running. 
 
-TODO: Set up ui-jar for a test driven living styleguide.
+*TODO*: Set up ui-jar accurately for a test driven living styleguide.
 
 ## Folder and file structure
 The relevant folders and files for the production are listed here.
