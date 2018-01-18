@@ -9,17 +9,15 @@ The relevant folders and files for the production are listed here.
 
 ```
 src
-│   index.html (this is project's index file)
-│   page01.html
-│   page02.html
-│   ...
+│   index.html
+│   main.ts
 │
 └───assets
 │   │
 │   ├───data
 │   │   data.json
 │   │
-│   └───scss
+│   ├───scss
 │   │   _settings.scss
 │   │   styles.scss
 │   │
@@ -40,12 +38,11 @@ src
 │   │   │
 │   │   ├───pages
 │   │   │
-│   │   ├───templates
+│   │   └───templates
 │   │
 │   ├───routes
 │   │   
-│   ├───services
-│   │ 
+│   └───services  
 ```
 
 ## Common
