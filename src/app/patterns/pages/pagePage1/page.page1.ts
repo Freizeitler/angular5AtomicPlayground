@@ -11,6 +11,7 @@ export class PagePage1 implements OnInit {
   title: string;
   subTitle: string;
   buttonText: string;
+  path: string;
 
   constructor(private http: HttpClient) { }
 
@@ -25,6 +26,7 @@ export class PagePage1 implements OnInit {
       this.title = data.page1.title;
       this.subTitle = data.page1.subTitle;
       this.buttonText = data.page1.buttonText;
+      this.path = data.page1.path;
     });
   }
 }

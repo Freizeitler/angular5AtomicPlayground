@@ -3,11 +3,13 @@
   {
     "title": "Playground",
     "subTitle": "Testing Angular",
-    "buttonText": "Page1"
+    "buttonText": "To Page1",
+    "path": "/page1"
   },
   "page1": {
     "title": "Playground",
     "subTitle": "Testing Angular - Page One",
-    "buttonText": "Home"
+    "buttonText": "Back Home",
+    "path": "/index"
   }
 }

@@ -10,5 +10,6 @@ export class OrganismHeader {
   @Input() title: string;
   @Input() subTitle: string;
   @Input() buttonText: string;
+  @Input() path: string;
   constructor() { }
 }

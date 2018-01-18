@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
 
+import { AppComponent } from './app.component';
 import { PageIndex } from './patterns/pages/pageIndex/page.index';
 import { PagePage1 } from './patterns/pages/pagePage1/page.page1';
 import { OrganismHeader } from './patterns/organisms/header/organism.header';
@@ -13,11 +14,13 @@ import { AtomButton } from './patterns/atoms/button/atom.button';
 
 const appRoutes: Routes = [
   { path: 'index', component: PageIndex },
-  { path: 'page1', component: PagePage1 }
+  { path: 'page1', component: PagePage1 },
+  { path: '', redirectTo: 'index', pathMatch: 'full'}
 ];
 
 @NgModule({
   declarations: [
+    AppComponent,
     PageIndex,
     PagePage1,
     OrganismHeader,
@@ -32,7 +35,7 @@ const appRoutes: Routes = [
     )
   ],
   providers: [],
-  bootstrap: [PageIndex]
+  bootstrap: [AppComponent]
 })
 
 export class AppModule { }

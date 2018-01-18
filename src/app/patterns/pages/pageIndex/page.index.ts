@@ -11,6 +11,7 @@ export class PageIndex implements OnInit {
   title: string;
   subTitle: string;
   buttonText: string;
+  path: string;
 
   constructor(private http: HttpClient) { }
 
@@ -25,6 +26,7 @@ export class PageIndex implements OnInit {
       this.title = data.index.title;
       this.subTitle = data.index.subTitle;
       this.buttonText = data.index.buttonText;
+      this.path = data.index.path;
     });
   }
 }
