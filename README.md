@@ -41,6 +41,7 @@ src
 │   │   ├───pages
 │   │   │
 │   │   ├───templates
+│   │
 │   ├───routes
 │   │   
 │   ├───services
