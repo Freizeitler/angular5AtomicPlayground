@@ -1,16 +1,16 @@
 /**
- * @name: AppComponent
+ * @name: AppRouter
  * @desc: This component exists only for the routing functionality and to hold <router-outlet>
  */
 
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-component',
-  templateUrl: './app.component.html'
+  selector: 'app-router',
+  templateUrl: './app.router.html'
 })
 
-export class AppComponent implements OnInit {
+export class AppRouter implements OnInit {
 
   constructor() { }
   ngOnInit(): void { }

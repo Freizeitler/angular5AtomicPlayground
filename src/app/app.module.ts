@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
 
-import { AppComponent } from './app.component';
+import { AppRouter } from './app.router';
 import { PageIndex } from './patterns/pages/pageIndex/page.index';
 import { PagePage1 } from './patterns/pages/pagePage1/page.page1';
 import { OrganismHeader } from './patterns/organisms/header/organism.header';
@@ -20,7 +20,7 @@ const appRoutes: Routes = [
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppRouter,
     PageIndex,
     PagePage1,
     OrganismHeader,
@@ -35,7 +35,7 @@ const appRoutes: Routes = [
     )
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppRouter]
 })
 
 export class AppModule { }
