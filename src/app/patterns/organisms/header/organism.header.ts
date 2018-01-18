@@ -1,3 +1,13 @@
+/**
+ * @name: OrganismHeader
+ * @description: An exampole for an organism. We're receiving and passing data through context (params).
+ * @param:
+ * title: $string
+ * subTitle: $string
+ * buttonText: $string
+ * path: $string
+ */
+
 import { Component, Input } from '@angular/core';
 
 @Component({

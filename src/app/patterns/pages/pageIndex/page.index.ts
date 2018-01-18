@@ -1,3 +1,8 @@
+/**
+ * @name: Index
+ * @description: This is a real page example. Here we're fetching the data from data.json and pass them to the lower components
+ */
+
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
