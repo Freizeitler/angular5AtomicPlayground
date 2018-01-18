@@ -24,25 +24,25 @@ src
 │   └───index.html
 │   
 └───app
-│   │   app.module.ts
-│   │   app.router.html
-│   │   app.router.ts
-│   │
-│   ├───patterns
-│   │   │
-│   │   ├───atoms
-│   │   │
-│   │   ├───molecules
-│   │   │
-│   │   ├───organisms
-│   │   │
-│   │   ├───pages
-│   │   │
-│   │   └───templates
-│   │
-│   ├───routes
-│   │   
-│   └───services  
+    │   app.module.ts
+    │   app.router.html
+    │   app.router.ts
+    │
+    ├───patterns
+    │   │
+    │   ├───atoms
+    │   │
+    │   ├───molecules
+    │   │
+    │   ├───organisms
+    │   │
+    │   ├───pages
+    │   │
+    │   └───templates
+    │
+    ├───routes
+    │   
+    └───services  
 ```
 
 ## Common
